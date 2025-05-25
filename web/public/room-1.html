@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <title>Example Scene</title>
     <!--<script>window.AFRAME_SAMPLE_ASSETS_ROOT = "./sample-assets/";</script>-->
-    <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@master/dist/aframe-master.min.js"></script>
-    <script src="https://unpkg.com/aframe-environment-component@1.4.0/dist/aframe-environment-component.min.js"></script>
+    <script src="./aframe-master.min.js"></script>
+    <script src="./aframe-environment-component.min.js"></script>
     <script>
       AFRAME.registerComponent("models-array", {
         schema: {
@@ -74,6 +74,41 @@
           ctx.stroke();
         },
       });
+
+      let hasKey = false;
+
+      AFRAME.registerComponent("pickup-key", {
+        init: function () {
+          this.el.addEventListener("click", () => {
+            hasKey = true;
+            this.el.setAttribute("visible", "false");
+            document
+              .querySelector("#text")
+              .setAttribute("value", "Has agafat la clau!");
+          });
+        },
+      });
+
+      AFRAME.registerComponent("open-door", {
+        init: function () {
+          this.el.addEventListener("click", () => {
+            if (hasKey) {
+              this.el.setAttribute("animation", {
+                property: "rotation",
+                to: "0 90 0",
+                dur: 1000,
+              });
+              document
+                .querySelector("#text")
+                .setAttribute("value", "Has obert la porta!");
+            } else {
+              document
+                .querySelector("#text")
+                .setAttribute("value", "Necessites la clau!");
+            }
+          });
+        },
+      });
     </script>
   </head>
   <body>
@@ -99,16 +134,8 @@
         <a-mixin id="purple" material="color: #93648D"></a-mixin>
         <a-mixin id="short" scale="1 0.5 1"></a-mixin>
         <a-mixin id="yellow" material="color: #FFC65D"></a-mixin>
-        <img
-          id="crateImg"
-          src="https://aframe.io/sample-assets/assets/images/wood/crate.gif"
-          crossorigin="true"
-        />
-        <img
-          id="floorImg"
-          src="https://aframe.io/sample-assets/assets/images/terrain/grasslight-big.jpg"
-          crossorigin="true"
-        />
+        <img id="crateImg" src="./crate.svg" />
+        <img id="floorImg" src="./grass.svg" />
       </a-assets>
 
       <a-entity
@@ -143,7 +170,7 @@
         models-array="models:one,two"
       ></a-entity>
       <a-box
-        src="https://aframe.io/sample-assets/assets/images/bricks/brick_bump.jpg"
+        src="./brick.svg"
         position="-5 5 -2"
         width="1"
         color="#F16745"
@@ -176,6 +203,25 @@
         material="color: #0f0"
         position="4 2 4"
       ></a-entity>
+
+      <a-box position="-1 0.5 -3" color="gold" pickup-key></a-box>
+
+      <a-box
+        id="door"
+        position="2 1.5 -4"
+        depth="0.1"
+        height="3"
+        width="1"
+        color="#8B4513"
+        open-door
+      ></a-box>
+
+      <a-text
+        id="text"
+        value="Troba la clau!"
+        position="-1 2 -3"
+        color="black"
+      ></a-text>
 
       <!-- Floor. -->
       <a-entity
@@ -211,6 +257,6 @@
       <a-entity id="rightHand" laser-controls="hand: right"></a-entity>
     </a-scene>
 
-    <script src="../dist/aframe-inspector.js"></script>
+    <script src="./aframe-inspector.min.js"></script>
   </body>
 </html>

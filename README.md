@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 Escape Room Creator - Projecte Educatiu Transferible
 
-## Getting Started
+## 📋 Descripció del Projecte
 
-First, run the development server:
+**Escape Room Creator** és una plataforma educativa innovadora que permet als professors crear experiències immersives d'escape rooms virtuals per a l'aprenentatge. Aquest projecte combina gamificació, realitat virtual i metodologies pedagògiques actives per a crear entorns d'aprenentatge únics i motivadors.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### 🎯 Objectius i Competències
+
+- **Objectius**: Especificació dels resultats d'aprenentatge i competències específiques alineades amb el currículum oficial
+- **Contextualització**: Descripció de l'entorn educatiu, nivell dels estudiants i recursos disponibles
+- **Justificació pedagògica**: Raons per les quals el projecte és pertinent i beneficiós per a l'alumnat
+- **Referències normatives**: Cites de decrets, lleis i altres normatives educatives que donen suport al projecte
+
+### 📅 Planificació Temporal
+
+- **Calendari**: Distribució de les sessions amb les activitats corresponents
+- **Fites i lliuraments**: Dates clau per a l'entrega de tasques i avaluacions
+
+### 📚 Materials i Recursos
+
+- **Llista de materials**: Relació d'equipaments, programari i altres recursos necessaris
+- **Guies d'ús**: Instruccions per a la utilització dels recursos proporcionats
+- **Repositoris**: Enllaços a recursos addicionals i materials complementaris
+
+### 🔬 Estratègies Metodològiques
+
+- **Metodologia**: Descripció de les tècniques d'ensenyament-aprenentatge utilitzades
+- **Adaptacions**: Propostes per a adaptar el projecte a diferents contextos educatius (DUA)
+
+### 📊 Avaluació
+
+- **Instruments d'avaluació**: Rúbriques, qüestionaris i altres eines per a avaluar l'aprenentatge
+- **Criteris de qualificació**: Paràmetres per a mesurar l'assoliment dels objectius del projecte
+- **Evidències a qualificar**: Documentació sobre com es valorarà el treball de l'estudiant
+
+## 🚀 Tecnologies Utilitzades
+
+- **Frontend**: Next.js 14, React 18, TypeScript
+- **Estils**: Tailwind CSS, Shadcn/UI
+- **3D/VR**: A-Frame per a experiències immersives
+- **Base de dades**: [Per definir]
+- **Autenticació**: [Per definir]
+
+## 📁 Estructura del Projecte
+
+```
+escape-room-creator/
+├── 📚 professorat/                    # Documentació per al professorat
+│   ├── guia_didactica.pdf            # Guia didàctica completa
+│   ├── planificacio_temporal.xlsx    # Planificació temporal
+│   ├── materials_recursos/           # Materials i recursos
+│   ├── estrategies_metodologiques.pdf # Estratègies metodològiques
+│   └── avaluacio/                    # Avaluació
+│       ├── instruments/              # Instruments d'avaluació
+│       └── criteris.pdf             # Criteris d'avaluació
+├── 👨‍🎓 alumnnat/                      # Recursos per a l'alumnat
+│   ├── dossier_projecte.pdf         # Dossier del projecte
+│   ├── tutorials/                   # Tutorials
+│   ├── exemples/                    # Exemples
+│   └── eines_treball/               # Eines de treball
+└── 🌐 web/                          # Aplicació web Next.js
+    ├── app/                         # Aplicació Next.js
+    ├── components/                  # Components reutilitzables
+    ├── public/                      # Recursos estàtics
+    └── package.json                 # Configuració del projecte
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Instal·lació i Configuració
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Clonar el repositori
+git clone [URL_DEL_REPOSITORI]
+cd escape-room-creator
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Navegar a la carpeta de l'aplicació web
+cd web
 
-## Learn More
+# Instal·lar dependències
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+# Executar en mode desenvolupament
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📋 Continguts per al Professorat
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Guia Didàctica del Projecte
+- Objectius i competències: Especificació dels resultats d'aprenentatge/competències específiques i criteris d'avaluació alineats amb el currículum oficial
+- Contextualització: Descripció de l'entorn educatiu, nivell dels estudiants i recursos disponibles
+- Justificació pedagògica: Raons per les quals el projecte és pertinent i beneficiós per a l'alumnat
+- Referències normatives: Cites de decrets, lleis i altres normatives educatives que donen suport al projecte
 
-## Deploy on Vercel
+### Planificació Temporal
+- Calendari: Distribució de les sessions amb les activitats corresponents
+- Fites i lliuraments: Dates clau per a l'entrega de tasques i avaluacions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Materials i Recursos
+- Llista de materials: Relació d'equipaments, programari i altres recursos necessaris
+- Guies d'ús: Instruccions per a la utilització dels recursos proporcionats
+- Repositoris: Enllaços a recursos addicionals
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Estratègies Metodològiques
+- Metodologia: Descripció de les tècniques d'ensenyament-aprenentatge utilitzades
+- Adaptacions: Propostes per a adaptar el projecte a diferents contextos educatius (DUA)
+
+### Avaluació
+- Instruments d'avaluació: Rúbriques, qüestionaris i altres eines per a avaluar l'aprenentatge
+- Criteris de qualificació: Paràmetres per a mesurar l'assoliment dels objectius del projecte
+- Evidències a qualificar: Documentació sobre com es valorarà el treball de l'estudiant
+
+## 📋 Continguts per a l'Alumnat
+
+### Dossier del Projecte
+- Introducció: Presentació del projecte i la seua rellevància
+- Objectius: Què s'espera que l'alumnat aconseguisca
+- Activitats: Descripció detallada de les tasques a realitzar
+- Criteris d'avaluació: Informació sobre com es valorarà el seu treball
+
+## 👥 Contribució
+
+Aquest projecte està dissenyat per a ser transferible i adaptable a diferents contextos educatius. Les contribucions són benvingudes seguint les guies de contribució.
+
+## 📄 Llicència
+
+[Especificar llicència educativa apropiada]
+
+## 📞 Contacte
+
+[Informació de contacte de l'equip educatiu]

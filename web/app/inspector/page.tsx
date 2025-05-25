@@ -1,11 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect } from "react";
 
 export default function InspectorPage() {
-  const sceneRef = useRef(null);
-  const [roomContent, setRoomContent] = useState("");
-
   useEffect(() => {
     if (typeof window !== "undefined") {
       import("aframe");
