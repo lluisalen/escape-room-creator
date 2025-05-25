@@ -14,7 +14,7 @@ export default function InspectorPage() {
 
   return (
     <iframe
-      src="/assets/rooms/room-1.html"
+      src="/room-1.html"
       style={{ width: "100vw", height: "100vh", border: "none" }}
     />
   );
