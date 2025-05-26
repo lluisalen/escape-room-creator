@@ -39,7 +39,7 @@
 - **Estils**: Tailwind CSS, Shadcn/UI
 - **3D/VR**: A-Frame per a experiències immersives
 - **Base de dades**: [Per definir]
-- **Autenticació**: [Per definir]
+- **Autenticació**: Auth
 
 ## 📁 Estructura del Projecte
 
