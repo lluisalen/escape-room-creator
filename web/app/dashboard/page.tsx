@@ -1,33 +1,48 @@
 // app/dashboard/page.tsx
 "use client";
 
-import { Room } from "@/app/lib/types";
+import { Room, Template } from "@/app/lib/types";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaEdit, FaPlay, FaPlus, FaTrash } from "react-icons/fa";
 
 export default function Dashboard() {
-  const [rooms, setRooms] = useState<Room[]>([]);
+  const [templates, setTemplates] = useState<Room[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
 
+  const handleEditClick = async (templateName: string) => {
+
+    const res = await fetch("/api/create-room", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ templateName }),
+    });
+
+    if (res.ok) {
+      const data = await res.json();
+      window.location.href = `/editor/${templateName}`;
+    } else {
+      const error = await res.json();
+      alert("Error: " + error.error);
+    }
+  };
+
   useEffect(() => {
-    // Carregar les sales d'escape
-    const fetchRooms = async () => {
+    const fetchTemplates = async () => {
       try {
-        const response = await fetch("/api/rooms");
-        if (response.ok) {
-          const data = await response.json();
-          setRooms(data);
-        }
-      } catch (error) {
-        console.error("Error carregant les sales:", error);
-      } finally {
+        const res = await fetch("/api/templates");
+        const data = await res.json();
+        console.log("data: "+data);
+        setTemplates(data); // Guarda aquí los nombres
         setLoading(false);
+      } catch (err) {
+        console.error("Error carregant les plantilles:", err);
       }
     };
 
-    fetchRooms();
+    fetchTemplates();
   }, []);
+
 
   const deleteRoom = async (roomId: string) => {
     if (!window.confirm("Estàs segur que vols eliminar aquesta sala?")) return;
@@ -38,7 +53,7 @@ export default function Dashboard() {
       });
 
       if (response.ok) {
-        setRooms(rooms.filter((room) => room.id !== roomId));
+        setTemplates(templates.filter((template) => template.id !== roomId));
         alert("Sala eliminada amb èxit");
       }
     } catch (error) {
@@ -53,6 +68,7 @@ export default function Dashboard() {
       </div>
     );
   }
+console.log(templates);
 
   return (
     <div className="min-h-screen bg-gray-100">
@@ -69,33 +85,34 @@ export default function Dashboard() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {rooms.length > 0 ? (
-            rooms.map((room) => (
+          {templates.length > 0 ? (
+            templates.map((template) => (
               <div
-                key={room.id}
+                key={template['id']}
                 className="bg-white rounded-lg shadow-md overflow-hidden"
               >
                 <div className="p-4">
-                  <h2 className="text-xl font-bold mb-2">{room.name}</h2>
-                  <p className="text-gray-600 mb-4">{room.description}</p>
+                  <h2 className="text-xl font-bold mb-2">{template.name}</h2>
+                  <p className="text-gray-600 mb-4">{template.description}</p>
 
                   <div className="flex space-x-2">
                     <Link
-                      href={`/editor/${room.id}`}
+                      href={`/editor/${template.name}`}
                       className="bg-yellow-500 hover:bg-yellow-600 text-white px-3 py-1 rounded-md flex items-center"
+                    onClick={() => handleEditClick(template.name)}
                     >
                       <FaEdit className="mr-1" />
                       Editar
                     </Link>
                     <Link
-                      href={`/viewer/${room.id}`}
+                      href={`/viewer/${template.name}`}
                       className="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded-md flex items-center"
                     >
                       <FaPlay className="mr-1" />
-                      Jugar
+                      Jugar {template.id}
                     </Link>
                     <button
-                      onClick={() => deleteRoom(room.id)}
+                      onClick={() => deleteRoom(template.id)}
                       className="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded-md flex items-center"
                     >
                       <FaTrash className="mr-1" />

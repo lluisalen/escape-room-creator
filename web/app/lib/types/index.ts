@@ -5,6 +5,12 @@ export interface Room {
   description: string;
   entities: string[];
 }
+export interface Template {
+  id: string;
+  name: string;
+  description: string;
+  entities: string[];
+}
 
 // types/Object3D.ts
 export interface Object3D {
