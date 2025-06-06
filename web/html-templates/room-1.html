@@ -112,7 +112,11 @@
     </script>
   </head>
   <body>
-    <a-scene debug="true">
+    <a-scene
+      physics="type: cannon; gravity: -9.8"
+      embedded
+      inspector="url: https://cdn.jsdelivr.net/gh/c-frame/aframe-editor@1.7.8/dist/aframe-editor.min.js"
+    >
       <a-assets>
         <canvas id="canvasTexture" width="512" height="512" />
         <a-mixin id="blue" material="color: #4CC3D9"></a-mixin>
