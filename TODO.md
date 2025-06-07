@@ -3,20 +3,19 @@
 Les tasques marcades en v2 son idees de futur si funciona la primera versió. Aixina poder continuar amb el projecte el següent curs i fer altres tasques.
 
 ### 🎯 Objectius i Competències
-- [ ] **Contextualització completa**
-  - [ ] Descripció detallada de l'entorn educatiu (IES/FP)
-  - [ ] Perfil dels estudiants (edat, nivell, prerequisits)
-  - [ ] Recursos disponibles al centre educatiu
+- [x] **Contextualització completa**
+  - [x] Descripció detallada de l'entorn educatiu (IES/FP)
+  - [x] Perfil dels estudiants (edat, nivell, prerequisits)
+  - [x] Recursos disponibles al centre educatiu
   
-- [ ] **Justificació pedagògica**
-  - [ ] Beneficis del projecte per a l'alumnat
-  - [ ] Connexió amb competències transversals
-  - [ ] Impacte en l'aprenentatge significatiu
+- [x] **Justificació pedagògica**
+  - [x] Beneficis del projecte per a l'alumnat
+  - [x] Connexió amb competències transversals
+  - [x] Impacte en l'aprenentatge significatiu
 
-- [ ] **Referències normatives**
-  - [ ] Decret currículum FP Comunitat Valenciana
-  - [ ] Llei Orgànica d'Educació (LOMLOE)
-  - [ ] Marc Europeu de Qualificacions
+- [x] **Referències normatives**
+  - [x] Decret currículum FP Comunitat Valenciana
+  - [x] Llei Orgànica d'Educació (LOMLOE)
 
 ### 📚 Materials i Recursos
 
@@ -45,12 +44,11 @@ Les tasques marcades en v2 son idees de futur si funciona la primera versió. Ai
   - [ ] Adaptacions per a diversitat funcional
 
 #### 📊 Sistema d'Avaluació
-- [ ] **Instruments d'avaluació/**
+- [x] **Instruments d'avaluació/**
   - [x] Rúbriques detallades per sprint
-  - [ ] Qüestionaris d'autoavaluació
-  - [ ] Pautes d'observació
+  - [x] Qüestionaris d'autoavaluació
 
-- [ ] **Criteris d'avaluació **
+- [x] **Criteris d'avaluació **
   - [x] Criteris específics per evidència
   - [x] Escales de qualificació (1-4)
   - [ ] Recuperació i millora
