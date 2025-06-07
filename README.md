@@ -1,45 +1,47 @@
-# 🎮 Escape Room Creator - Projecte Educatiu Transferible
+# 🎮 Escape Room Creator - Projecte Educatiu
 
 ## 📋 Descripció del Projecte
 
-**Escape Room Creator** és una plataforma educativa innovadora que permet als professors crear experiències immersives d'escape rooms virtuals per a l'aprenentatge. Aquest projecte combina gamificació, realitat virtual i metodologies pedagògiques actives per a crear entorns d'aprenentatge únics i motivadors.
+**Escape Room Creator** és una plataforma educativa innovadora per al mòdul de **Disseny d'Interfícies Web (DIW)** del cicle formatiu de grau superior **Desenvolupament d'Aplicacions Web**. Aquest projecte permet als estudiants crear experiències immersives d'escape rooms virtuals mentre desenvolupen competències en disseny web, interfícies 3D i accessibilitat.
 
-### 🎯 Objectius i Competències
+### 🎯 Objectius i Resultats d'Aprenentatge
 
-- **Objectius**: Especificació dels resultats d'aprenentatge i competències específiques alineades amb el currículum oficial
-- **Contextualització**: Descripció de l'entorn educatiu, nivell dels estudiants i recursos disponibles
-- **Justificació pedagògica**: Raons per les quals el projecte és pertinent i beneficiós per a l'alumnat
-- **Referències normatives**: Cites de decrets, lleis i altres normatives educatives que donen suport al projecte
+El projecte cobrix els **6 Resultats d'Aprenentatge (RA)** específics del currículum oficial:
 
-### 📅 Planificació Temporal
+- **RA1 (15%)**: Planifica la creació d'interfícies web valorant i aplicant especificacions de disseny
+- **RA2 (35%)**: Crea interfícies web homogenis definint i aplicant estils
+- **RA3 (20%)**: Prepara arxius multimèdia per a la web analitzant-ne les característiques
+- **RA4 (10%)**: Integra contingut multimèdia en documents web valorant-ne l'aportació
+- **RA5 (10%)**: Desenvolupa interfícies web accessibles aplicant tècniques de verificació
+- **RA6 (10%)**: Desenvolupa interfícies web amigables analitzant pautes d'usabilitat
 
-- **Calendari**: Distribució de les sessions amb les activitats corresponents
-- **Fites i lliuraments**: Dates clau per a l'entrega de tasques i avaluacions
+### 📅 Planificació Temporal - 6 Sprints (21 setmanes)
 
-### 📚 Materials i Recursos
+| Sprint | Setmanes | Objectius clau | RA |
+|--------|----------|----------------|-----|
+| **Sprint 1** | 1-3 | Introducció, guia d'estils i mockups a Figma | RA1 |
+| **Sprint 2** | 4-6 | Maquetació HTML de vistes existents/noves | RA1+RA2 |
+| **Sprint 3** | 7-11 | Integració TailwindCSS/ShadCN, estils avançats | RA2 |
+| **Sprint 4** | 12-16 | A-Frame, objectes 3D, prototip sala 3D | RA3+RA4 |
+| **Sprint 5** | 17-18 | Elements interactius, accessibilitat i usabilitat | RA5+RA6 |
+| **Sprint 6** | 19-21 | Documentació, verificació navegadors i presentació | RA2-RA6 |
 
-- **Llista de materials**: Relació d'equipaments, programari i altres recursos necessaris
-- **Guies d'ús**: Instruccions per a la utilització dels recursos proporcionats
-- **Repositoris**: Enllaços a recursos addicionals i materials complementaris
+## 🚀 Tecnologies i Eines
 
-### 🔬 Estratègies Metodològiques
-
-- **Metodologia**: Descripció de les tècniques d'ensenyament-aprenentatge utilitzades
-- **Adaptacions**: Propostes per a adaptar el projecte a diferents contextos educatius (DUA)
-
-### 📊 Avaluació
-
-- **Instruments d'avaluació**: Rúbriques, qüestionaris i altres eines per a avaluar l'aprenentatge
-- **Criteris de qualificació**: Paràmetres per a mesurar l'assoliment dels objectius del projecte
-- **Evidències a qualificar**: Documentació sobre com es valorarà el treball de l'estudiant
-
-## 🚀 Tecnologies Utilitzades
-
+### Desenvolupament Web
 - **Frontend**: Next.js 14, React 18, TypeScript
-- **Estils**: Tailwind CSS, Shadcn/UI
-- **3D/VR**: A-Frame per a experiències immersives
-- **Base de dades**: [Per definir]
-- **Autenticació**: Auth
+- **Estils**: Tailwind CSS, Shadcn/UI components
+- **Validació**: HTML5 Validator, CSS Validator, Lighthouse
+
+### Experiències 3D/VR
+- **Realitat Virtual**: A-Frame per a sales immersives
+- **Modelatge 3D**: Blender, SketchUp (opcionals)
+- **Formats**: GLTF, OBJ per a objectes 3D
+
+### Disseny i Prototipat
+- **UX/UI**: Figma per a mockups i guies d'estils
+- **Gràfics**: GIMP/Photoshop per a optimització d'imatges
+- **Accessibilitat**: axe-core, WAVE per a verificació WCAG
 
 ## 📁 Estructura del Projecte
 
@@ -69,7 +71,7 @@ escape-room-creator/
 
 ```bash
 # Clonar el repositori
-git clone [URL_DEL_REPOSITORI]
+git clone https://github.com/lluisalen/escape-room-creator.git
 cd escape-room-creator
 
 # Navegar a la carpeta de l'aplicació web
@@ -82,48 +84,51 @@ npm install
 npm run dev
 ```
 
-## 📋 Continguts per al Professorat
+Visita http://localhost:3000 per veure l'aplicació.
 
-### Guia Didàctica del Projecte
-- Objectius i competències: Especificació dels resultats d'aprenentatge/competències específiques i criteris d'avaluació alineats amb el currículum oficial
-- Contextualització: Descripció de l'entorn educatiu, nivell dels estudiants i recursos disponibles
-- Justificació pedagògica: Raons per les quals el projecte és pertinent i beneficiós per a l'alumnat
-- Referències normatives: Cites de decrets, lleis i altres normatives educatives que donen suport al projecte
+## 🎯 Metodologia Pedagògica
 
-### Planificació Temporal
-- Calendari: Distribució de les sessions amb les activitats corresponents
-- Fites i lliuraments: Dates clau per a l'entrega de tasques i avaluacions
+### Aprenentatge Basat en Projectes (ABP)
+- Projecte real i transferible a diferents contextos educatius
+- Desenvolupament incremental per sprints
+- Avaluació contínua amb feedback constant
 
-### Materials i Recursos
-- Llista de materials: Relació d'equipaments, programari i altres recursos necessaris
-- Guies d'ús: Instruccions per a la utilització dels recursos proporcionats
-- Repositoris: Enllaços a recursos addicionals
+### Gamificació Educativa
+- Creació d'escape rooms com a motivació intrínseca
+- Mecàniques de joc aplicades a l'aprenentatge
+- Narrativa immersiva
 
-### Estratègies Metodològiques
-- Metodologia: Descripció de les tècniques d'ensenyament-aprenentatge utilitzades
-- Adaptacions: Propostes per a adaptar el projecte a diferents contextos educatius (DUA)
+### Disseny Universal per a l'Aprenentatge (DUA)
+- Múltiples formes de representació (visual, auditiva, kinestèsica)
+- Diversos mitjans d'expressió i acció
+- Variades opcions de compromís i motivació
 
-### Avaluació
-- Instruments d'avaluació: Rúbriques, qüestionaris i altres eines per a avaluar l'aprenentatge
-- Criteris de qualificació: Paràmetres per a mesurar l'assoliment dels objectius del projecte
-- Evidències a qualificar: Documentació sobre com es valorarà el treball de l'estudiant
+## 🔍 Característiques Tècniques
 
-## 📋 Continguts per a l'Alumnat
+### Interfícies Web Modernes
+- Disseny responsive i mobile-first
+- Components reutilitzables amb Shadcn/UI
+- Tema fosc/clar per accessibilitat
 
-### Dossier del Projecte
-- Introducció: Presentació del projecte i la seua rellevància
-- Objectius: Què s'espera que l'alumnat aconseguisca
-- Activitats: Descripció detallada de les tasques a realitzar
-- Criteris d'avaluació: Informació sobre com es valorarà el seu treball
+### Experiències 3D Immersives
+- Sales virtuals navegables amb A-Frame
+- Controls intuïtius (ratolí, teclat, VR)
+- Optimització per a rendiment web
 
-## 👥 Contribució
+### Accessibilitat i Usabilitat
+- Compliment WCAG 2.1 nivell AA
+- Tests automatitzats amb Lighthouse
+- Suport per a tecnologies assistives
 
-Aquest projecte està dissenyat per a ser transferible i adaptable a diferents contextos educatius. Les contribucions són benvingudes seguint les guies de contribució.
+## 👥 Transferibilitat i Contribució
 
-## 📄 Llicència
+Aquest projecte està dissenyat per ser **transferible** a:
+- Altres centres educatius de FP
+- Diferents especialitats de desenvolupament web
+- Contextos d'educació no formal
 
-[Especificar llicència educativa apropiada]
+## 📄 Llicències i Drets d'Autor
 
-## 📞 Contacte
-
-[Informació de contacte de l'equip educatiu]
+- **Codi**: MIT License - Ús lliure amb atribució
+- **Contingut educatiu**: Creative Commons BY-SA 4.0
+- **Assets 3D**: Respectar llicències individuals (CC0, CC BY, etc.)
