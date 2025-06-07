@@ -1,0 +1,184 @@
+## 📋 Tasques pendents del projecte educatiu
+
+Les tasques marcades en v2 son idees de futur si funciona la primera versió. Aixina poder continuar amb el projecte el següent curs i fer altres tasques.
+
+### 🎯 Objectius i Competències
+- [ ] **Contextualització completa**
+  - [ ] Descripció detallada de l'entorn educatiu (IES/FP)
+  - [ ] Perfil dels estudiants (edat, nivell, prerequisits)
+  - [ ] Recursos disponibles al centre educatiu
+  
+- [ ] **Justificació pedagògica**
+  - [ ] Beneficis del projecte per a l'alumnat
+  - [ ] Connexió amb competències transversals
+  - [ ] Impacte en l'aprenentatge significatiu
+
+- [ ] **Referències normatives**
+  - [ ] Decret currículum FP Comunitat Valenciana
+  - [ ] Llei Orgànica d'Educació (LOMLOE)
+  - [ ] Marc Europeu de Qualificacions
+
+### 📚 Materials i Recursos
+
+#### 📝 Documentació per al Professorat
+- [ ] **Guia didàctica completa (PDF)**
+  - [ ] Introducció al projecte
+  - [ ] Objectius específics per RA
+  - [ ] Metodologia detallada
+  - [ ] Seqüenciació d'activitats
+  - [ ] Recursos necessaris
+  - [ ] Avaluació i qualificació
+
+- [ ] **Planificació temporal**
+  - [ ] Fites i lliuraments
+
+- [ ] **Materials i recursos/**
+  - [ ] Llista d'equipaments necessaris
+  - [ ] Programari requerit (llicències)
+  - [ ] Recursos web i enllaços
+  - [ ] Bibliografia recomanada
+
+- [ ] **Estratègies metodològiques (PDF)**
+  - [ ] Aprenentatge Basat en Projectes (ABP)
+  - [ ] Gamificació educativa
+  - [ ] Disseny Universal per a l'Aprenentatge (DUA)
+  - [ ] Adaptacions per a diversitat funcional
+
+#### 📊 Sistema d'Avaluació
+- [ ] **Instruments d'avaluació/**
+  - [x] Rúbriques detallades per sprint
+  - [ ] Qüestionaris d'autoavaluació
+  - [ ] Pautes d'observació
+
+- [ ] **Criteris d'avaluació **
+  - [x] Criteris específics per evidència
+  - [x] Escales de qualificació (1-4)
+  - [ ] Recuperació i millora
+
+### 👨‍🎓 Recursos per a l'Alumnat
+
+- [ ] **Dossier del projecte (PDF)**
+  - [ ] Introducció motivadora
+  - [ ] Objectius d'aprenentatge clars
+  - [ ] Cronograma visual
+  - [ ] Criteris d'avaluació adaptats
+  - [ ] Recursos i enllaços útils
+
+- [ ] **Tutorials/**
+  - [ ] Tutorial Figma per a guies d'estils
+  - [ ] Tutorial HTML semàntic i accessibilitat
+  - [ ] Tutorial Tailwind CSS configuració
+  - [ ] Tutorial A-Frame bàsic
+  - [ ] Tutorial Lighthouse i WCAG
+  - [ ] Tutorial Git i GitHub
+
+- [ ] **Exemples/**
+  - [ ] Guia d'estils de referència
+  - [ ] Mockups Figma exemplars
+  - [ ] Codi HTML semàntic
+  - [ ] Configuració Tailwind
+  - [ ] Escena A-Frame bàsica
+  - [ ] Informe d'accessibilitat
+
+- [ ] **Eines de treball/**
+  - [ ] Plantilles Figma
+  - [ ] Boilerplate HTML/CSS
+  - [ ] Configuració Tailwind base
+  - [ ] Components Shadcn preconfigurats
+  - [ ] Escenes A-Frame plantilla
+  - [ ] Checklist d'accessibilitat
+
+### 🌐 Aplicació Web Next.js
+
+#### 🏗️ Estructura Base
+- [ ] **Configuració inicial**
+  - [ ] Crear projecte Next.js 14
+  - [ ] Configurar TypeScript
+  - [ ] Instal·lar Tailwind CSS
+  - [ ] Configurar Shadcn/UI
+  - [ ] Configurar A-Frame
+
+#### 📱 Interfícies Web
+- [ ] **Pàgines principals**
+  - [ ] Landing page (Home)
+  - [ ] Galeria d'escape rooms
+  - [ ] Creador d'escape rooms
+  - [ ] Perfil d'usuari
+  - [ ] Configuració
+
+- [ ] **Components reutilitzables**
+  - [ ] Header/Navigation
+  - [ ] Footer
+  - [ ] Cards escape rooms
+  - [ ] Formularis
+  - [ ] Modals
+  - [ ] Loading states
+
+#### 🎮 Funcionalitats 3D
+- [ ] **Editor A-Frame**
+  - [ ] Escena 3D bàsica
+  - [ ] Galeria d'objectes 3D
+  - [ ] Drag & drop objectes
+  - [ ] Configuració llums (v2)
+  - [ ] Controlers VR (v2)
+
+- [ ] **Sistema d'escape rooms**
+  - [ ] Creació de plantilles
+  - [ ] Sistema de pistes
+  - [ ] Mecàniques d'interacció
+  - [ ] Timer i puntuació (v2)
+  - [ ] Guardat/carregat
+
+#### 🔐 Autenticació i Base de Dades (v2)
+- [ ] **Autenticació**
+  - [ ] Sistema de login/registre
+  - [ ] Perfils d'usuari
+  - [ ] Rols (professor/alumne)
+
+- [ ] **Base de dades**
+  - [ ] Definir esquema
+  - [ ] Models escape rooms
+  - [ ] Progés d'usuaris
+  - [ ] Sistema de puntuacions
+
+### 🧪 Testing i Qualitat
+
+- [ ] **Accessibilitat**
+  - [ ] Tests WCAG 2.1 AA
+  - [ ] Navegació per teclat
+  - [ ] Screen readers
+  - [ ] Contrast colors
+
+- [ ] **Usabilitat**
+  - [ ] Tests amb usuaris reals
+  - [ ] Anàlisi Lighthouse
+  - [ ] Performance optimization
+  - [ ] Cross-browser testing
+
+- [ ] **Qualitat codi**
+  - [ ] ESLint configuration
+  - [ ] Prettier setup
+  - [ ] Unit tests (Jest)
+  - [ ] E2E tests (Playwright)
+
+### 📖 Documentació Final
+
+- [ ] **README complet**
+  - [ ] Instruccions d'instal·lació
+  - [ ] Guia d'ús
+  - [ ] Arquitectura del projecte
+  - [ ] Contribució
+
+- [ ] **Documentació tècnica**
+  - [ ] API documentation
+  - [ ] Components documentation
+  - [ ] Deployment guide
+
+### 🚀 Desplegament (v2)
+
+- [ ] **Hosting**
+  - [ ] Configurar Vercel/Netlify
+  - [ ] Domain personalitzat
+  - [ ] SSL certificates
+  - [ ] Analytics
+
