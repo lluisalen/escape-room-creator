@@ -46,9 +46,9 @@ En la pestanya SPRINTS del excel estan totes les rúbriques.
 
 | Evidència | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
 |-----------|---|----------------|--------|----------|------------|
-| **Guia d'estils** | 30 | Paleta i tipografia completes, regles UI clares, aplicades a totes les vistes | Completa i aplicada a ≥90 % vistes | Esborrany bàsic, aplicació parcial | Inconsistent o incompleta |
-| **Mock-up Figma** | 25 | Prototip d'alta fidelitat amb flux, animacions i anotes d'accessibilitat | Totes vistes linkades amb flux coherent | ≥60 % vistes, flux parcial | <60 % vistes o flux incoherent |
-| **Mapa de navegació** | 20 | Mapa complet amb jerarquia clara, breadcrumbs i flux d'usuari detallat | Mapa estructurat amb connexions lògiques | Estructura bàsica amb algunes connexions | Incomplet o confús |
+| **Guia d'estils** | 35 | Paleta i tipografia completes, regles UI clares, aplicades a totes les vistes | Completa i aplicada a ≥90 % vistes | Esborrany bàsic, aplicació parcial | Inconsistent o incompleta |
+| **Mock-up Figma** | 30 | Prototip d'alta fidelitat amb flux, animacions i anotes d'accessibilitat | Totes vistes linkades amb flux coherent | ≥60 % vistes, flux parcial | <60 % vistes o flux incoherent |
+| **Mapa de navegació** | 10 | Mapa complet amb jerarquia clara, breadcrumbs i flux d'usuari detallat | Mapa estructurat amb connexions lògiques | Estructura bàsica amb algunes connexions | Incomplet o confús |
 | **Presentació proposta** | 25 | Storytelling fluït, temps respectat, Q&A resolt, visuals cuidats | Narrativa clara, temps adequat | Estructura bàsica amb mancances | Desorganitzada o incompleta |
 
 ---
