@@ -48,34 +48,43 @@ El projecte cobrix els **6 Resultats d'Aprenentatge (RA)** específics del curr�
 ```
 escape-room-creator/
 ├── 📚 professorat/                    # Documentació per al professorat
-│   ├── guia_didactica.pdf            # Guia didàctica completa
-│   ├── planificacio_temporal.xlsx    # Planificació temporal
+│   ├── guia_didàctica.md            # Guia didàctica completa
+│   ├── planificació_temporal.md     # Planificació temporal
+│   ├── DIW_Taula_RA_CA_Continguts.md # Taula de Resultats d'Aprenentatge
 │   ├── materials_recursos/           # Materials i recursos
-│   ├── estrategies_metodologiques.pdf # Estratègies metodològiques
 │   └── avaluacio/                    # Avaluació
-│       ├── instruments/              # Instruments d'avaluació
-│       └── criteris.pdf             # Criteris d'avaluació
-├── 👨‍🎓 alumnnat/                      # Recursos per a l'alumnat
-│   ├── dossier_projecte.pdf         # Dossier del projecte
-│   ├── tutorials/                   # Tutorials
-│   ├── exemples/                    # Exemples
-│   └── eines_treball/               # Eines de treball
-└── 🌐 web/                          # Aplicació web Next.js
-    ├── app/                         # Aplicació Next.js
-    ├── components/                  # Components reutilitzables
-    ├── public/                      # Recursos estàtics
-    └── package.json                 # Configuració del projecte
+│       ├── rúbriques_sprints.md     # Rúbriques per sprints
+│       └── rúbrica_co-avaluació.md  # Rúbrica de co-avaluació
+└── 👨‍🎓 alumnnat/                      # Recursos per a l'alumnat
+    ├── dossier_projecte.md        # Dossier del projecte
+    ├── tutorials/                   # Tutorials
+    ├── exemples/                    # Exemples
+    └── eines_treball/               # Eines de treball
+```
+
+### 🌐 Aplicació Web (Repositori Separat)
+
+L'aplicació web Next.js es troba en un **repositori independent**:
+
+**🔗 [Escape Room Creator App](https://github.com/joanmagf/escape-room-creator-app)**
+
+```
+escape-room-creator-app/
+├── app/                         # Aplicació Next.js
+├── components/                  # Components reutilitzables
+├── html-templates/              # Plantilles HTML
+├── public/                      # Recursos estàtics
+└── package.json                 # Configuració del projecte
 ```
 
 ## 🛠️ Instal·lació i Configuració
 
-```bash
-# Clonar el repositori
-git clone https://github.com/lluisalen/escape-room-creator.git
-cd escape-room-creator
+### 🌐 Aplicació Web
 
-# Navegar a la carpeta de l'aplicació web
-cd web
+```bash
+# Clonar el repositori de l'aplicació web
+git clone https://github.com/joanmagf/escape-room-creator-app.git
+cd escape-room-creator-app
 
 # Instal·lar dependències
 npm install
