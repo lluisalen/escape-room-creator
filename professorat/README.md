@@ -6,10 +6,11 @@ Aquesta secció conté tots els recursos necessaris perquè els docents puguen i
 
 ### 📚 Documents Inclosos
 
-1. **[guia_didactica.pdf](./guia_didactica.pdf)** - Document complet amb objectius, competències i metodologia
-2. **[planificacio_temporal.xlsx](./planificacio_temporal.xlsx)** - Calendari detallat de sessions i activitats
+1. **[guia_didactica.md](./guia_didactica.md)** - Document complet amb competències, objectius, contextualització, justifiació pedagògica i referències normatives.
+2. **[DIW_Taula_RA_CA_Continguts.md](./DIW_Taula_RA_CA_Continguts.md)** - Taula que relaciona els Resultats d'Aprenentatge, els criteris d'avaleuació i els continguts
+2. **[planificacio_temporal.md](./planificacio_temporal.md)** - Calendari detallat de sessions i activitats
 3. **[materials_recursos/](./materials_recursos/)** - Llista completa de recursos necessaris
-4. **[estrategies_metodologiques.pdf](./estrategies_metodologiques.pdf)** - Tècniques d'ensenyament-aprenentatge
+4. **[estrategies_metodologiques.md](./estrategies_metodologiques.md)** - Tècniques d'ensenyament-aprenentatge
 5. **[avaluacio/](./avaluacio/)** - Instruments i criteris d'avaluació
 
 ### 🎯 Objectius d'Aprenentatge
@@ -31,9 +32,4 @@ Aquesta secció conté tots els recursos necessaris perquè els docents puguen i
 
 - Ordinadors amb navegador web modern
 - Connexió a internet estable
-- Opcional: Ulleres VR per a experiència immersiva completa
 - Projector o pantalla per a presentacions grupals
-
-### 📞 Suport i Contacte
-
-Per a dubtes o suport tècnic, consultar la secció de FAQ o contactar amb l'equip de desenvolupament. 
