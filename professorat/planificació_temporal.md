@@ -4,25 +4,47 @@
 
 | Sprint | Setmanes | Objectius clau                                                                 | RA implicats     |
 |--------|----------|----------------------------------------------------------------------------------|------------------|
-| 1      | 1-3      | Introducció al projecte. <br> Clonar repo & estructura del projecte. <br> Unitats 1 i 2. <br> Crear guia d’estils i Mock-Up a Figma. <br> Presentació proposta. | RA1 |
+| 1      | 1-3      | Introducció al projecte. <br> Clonar repo & estructura del projecte. <br> Unitats 1 i 2. <br> Crear guia d'estils i Mock-Up a Figma. <br> Presentació proposta. | RA1 |
 | 2      | 4-6      | Escollir una vista existent o una nova. <br> Maquetar una vista amb HTML. | RA1 i RA2 |
 | 3      | 7-11      | Integrar TailwindCSS/ShadCN. <br>  | RA2 |
-| 4      | 12-16    | Introducció A-Frame, galeria d’objectes <br> Prototip de sala 3D. <br> Crear plantilles i escape rooms. | RA3 i RA4 |
+| 4      | 12-16    | Introducció A-Frame, galeria d'objectes <br> Prototip de sala 3D. <br> Crear plantilles i escape rooms. | RA3 i RA4 |
 | 5      | 17-18    | Elements interactius. <br> Usabilitat. <br> Accessibilitat | RA5 i RA6 |
 | 6      | 19-21    | Documentació (README). <br> Finalització faena. <br> Presentacions | RA2-RA6 |
 
 ---
 
-## Pes per Resultat d’Aprenentatge i evidències
+## Pes per Resultat d'Aprenentatge i evidències
 
 | RA   | %  | Evidències                                                                                      |
 |------|-----|--------------------------------------------------------------------------------------------------|
-| RA1  | 15  | Guia d’estils (PDF). Mock-Up Figma. Presentació inicial del disseny |
+| RA1  | 15  | Guia d'estils (PDF). Mock-Up Figma. Presentació inicial del disseny |
 | RA2  | 35  | Maquetes HTML. Estil amb CSS/Tailwind. |
 | RA3  | 20  | Obtindre objectes 3D. Crear el logo per a la web. Generar o descarregar la imatge 3D per al fons de la plantilla del escape room. |
 | RA4  | 10  | Integrar els objectes 3D. Integrar el logo per a la web. Integrar la imatge 3D per al fons de la plantilla del escape room. |
 | RA5  | 10  | Accessibilitat. Usabilitat. Informe Lighthouse. |
-| RA6  | 10  | Aplicació i millorar en l'accessibilitat i la usabilitat de test d’usabilitat. |
+| RA6  | 10  | Aplicació i millorar en l'accessibilitat i la usabilitat de test d'usabilitat. |
+
+---
+
+## Fites i entregables
+
+En aquest apartat es descriuen els moments més significatius del mòdul, així com les dates
+importants relacionades amb el lliurament de tasques, activitats i proves d'avaluació.
+L'organització temporal té com a finalitat assegurar una distribució equilibrada de la càrrega de
+treball de l'alumnat, facilitar un seguiment continu del seu progrés i promoure una avaluació
+constant i formativa.
+
+En aquesta taula sols es mostra un resum dels entregables en cada sprint, el detall de cada sprint
+està en la secció de Sessions per Sprint.
+
+| Sprint | Entregable | Data d'entrega |
+|--------|------------|----------------|
+| Sprint 1 | • Repositori clonat i configurat <br> • Guia d'estils (PDF) <br> • Mock-Up complet a Figma <br> • Presentació de la proposta de disseny | Setmana 3 |
+| Sprint 2 | Enllaç al projecte amb la següent funcionalitat: <br> • Maquetació HTML de les vistes assignades <br> • Estructura correcta del projecte <br> • Validació HTML correcta | Setmana 6 |
+| Sprint 3 | Enllaç al projecte amb la següent funcionalitat: <br> • Integració completa de TailwindCSS/ShadCN <br> • Estilització de totes les vistes maquetades <br> • Disseny responsive implementat | Setmana 11 |
+| Sprint 4 | Enllaç al projecte amb la següent funcionalitat: <br> • Galeria d'objectes 3D integrada <br> • Plantilla personalitzada d'escape room <br> • Escape room funcional creat amb A-Frame <br> • Vídeo demostratiu del funcionament 3D | Setmana 16 |
+| Sprint 5 | Enllaç al projecte amb la següent funcionalitat: <br> • Elements interactius implementats <br> • Millores d'accessibilitat aplicades <br> • Informe Lighthouse amb puntuació mínima de 80 <br> • Test d'usabilitat realitzat | Setmana 18 |
+| Sprint 6 | • Documentació completa (README, llicències) <br> • Projecte final funcional <br> • Presentació final del projecte <br> • Reflexió individual sobre l'aprenentatge | Setmana 21 |
 
 ---
 
@@ -32,13 +54,13 @@
 **Objectius:**  
 - Clonar repo & estructura.
 - Unitats 1 i 2.
-- Crear guia d’estils a Figma.
+- Crear guia d'estils a Figma.
 - Crear els grups de màxim 5 persones.
 
 **Sessions:**
-- Setmana 1 (Sessions 1-2): Introducció al projecte. Creació de grups. Clonar el repositori. Instal·lar dependències. Introducció al repositori. Unitat 1: Planificació d’interfícies gràfiques.
+- Setmana 1 (Sessions 1-2): Introducció al projecte. Creació de grups. Clonar el repositori. Instal·lar dependències. Introducció al repositori. Unitat 1: Planificació d'interfícies gràfiques i creació del mapa de navegació.
 - Setmana 2 (Sessions 3-4): Introducció a Figma. Unitat 2: Implementació de la usabilitat en la web. Disseny amigable.
-- Setmana 3 (Sessions 5-6): Mock-ups i guia d’estils segons les vistes existens. Es podria proposar alguna vista nova. Finalització del primer report. Presentació de la proposta.
+- Setmana 3 (Sessions 5-6): Mock-ups i guia d'estils segons les vistes existens. Es podria proposar alguna vista nova. Finalització del primer report. Presentació de la proposta.
 
 ---
 
@@ -60,8 +82,8 @@
 - Integrar TailwindCSS/ShadCN.
 
 **Sessions:**
-- Setmana 7 (Sessions  13 i 14): Unitat 6: Llenguatge de fulls d’estils CSS. TailwindCSS.
-- Setmana 8 (Sessions 15 i 16):  Unitat 6: Llenguatge de fulls d’estils CSS. TailwindCSS. Components Shadcn.
+- Setmana 7 (Sessions  13 i 14): Unitat 6: Llenguatge de fulls d'estils CSS. TailwindCSS.
+- Setmana 8 (Sessions 15 i 16):  Unitat 6: Linguatge de fulls d'estils CSS. TailwindCSS. Components Shadcn.
 - Setmana 9 (Sessions 17 i 18): Dotació d'estils a les vistes maquetades.
 - Setmana 10 (Sessions 19 i 20): Dotació d'estils a les vistes maquetades.
 - Setmana 11 (Sessions 21 i 22): Dotació d'estils a les vistes maquetades.
@@ -71,7 +93,7 @@
 ### Sprint 4 (Setmanes 12-16)
 **Objectius:**  
 - Unitat 4.
-- Introducció A-Frame, galeria d’objectes.
+- Introducció A-Frame, galeria d'objectes.
 - Prototip de sala 3D: Crear i guardar noves sales.
 - Cada grup ha de crear la seua plantilla i el seu escape room.
 

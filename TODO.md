@@ -28,8 +28,8 @@ Les tasques marcades en v2 son idees de futur si funciona la primera versió. Ai
   - [ ] Recursos necessaris
   - [x] Avaluació i qualificació
 
-- [ ] **Planificació temporal**
-  - [ ] Fites i lliuraments
+- [x] **Planificació temporal**
+  - [x] Fites i lliuraments
 
 - [ ] **Materials i recursos/**
   - [ ] Llista d'equipaments necessaris
