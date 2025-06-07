@@ -21,13 +21,13 @@ Les tasques marcades en v2 son idees de futur si funciona la primera versió. Ai
 ### 📚 Materials i Recursos
 
 #### 📝 Documentació per al Professorat
-- [ ] **Guia didàctica completa (PDF)**
-  - [ ] Introducció al projecte
-  - [ ] Objectius específics per RA
+- [ ] **Guia didàctica completa**
+  - [x] Introducció al projecte
+  - [x] Objectius específics per RA
   - [ ] Metodologia detallada
-  - [ ] Seqüenciació d'activitats
+  - [x] Seqüenciació d'activitats
   - [ ] Recursos necessaris
-  - [ ] Avaluació i qualificació
+  - [x] Avaluació i qualificació
 
 - [ ] **Planificació temporal**
   - [ ] Fites i lliuraments
@@ -57,7 +57,7 @@ Les tasques marcades en v2 son idees de futur si funciona la primera versió. Ai
 
 ### 👨‍🎓 Recursos per a l'Alumnat
 
-- [ ] **Dossier del projecte (PDF)**
+- [ ] **Dossier del projecte**
   - [ ] Introducció motivadora
   - [ ] Objectius d'aprenentatge clars
   - [ ] Cronograma visual
@@ -91,18 +91,19 @@ Les tasques marcades en v2 son idees de futur si funciona la primera versió. Ai
 ### 🌐 Aplicació Web Next.js
 
 #### 🏗️ Estructura Base
-- [ ] **Configuració inicial**
-  - [ ] Crear projecte Next.js 14
-  - [ ] Configurar TypeScript
-  - [ ] Instal·lar Tailwind CSS
-  - [ ] Configurar Shadcn/UI
-  - [ ] Configurar A-Frame
+- [x] **Configuració inicial**
+  - [x] Crear projecte Next.js 14
+  - [x] Configurar TypeScript
+  - [x] Instal·lar Tailwind CSS
+  - [x] Configurar Shadcn/UI
+  - [x] Configurar A-Frame
 
 #### 📱 Interfícies Web
 - [ ] **Pàgines principals**
-  - [ ] Landing page (Home)
-  - [ ] Galeria d'escape rooms
-  - [ ] Creador d'escape rooms
+  - [x] Landing page (Home)
+  - [x] Galeria d'escape rooms
+  - [x] Creador d'escape rooms
+  - [x] Iniciar sessió i registre
   - [ ] Perfil d'usuari
   - [ ] Configuració
 
@@ -145,8 +146,6 @@ Les tasques marcades en v2 son idees de futur si funciona la primera versió. Ai
 
 - [ ] **Accessibilitat**
   - [ ] Tests WCAG 2.1 AA
-  - [ ] Navegació per teclat
-  - [ ] Screen readers
   - [ ] Contrast colors
 
 - [ ] **Usabilitat**
@@ -158,8 +157,8 @@ Les tasques marcades en v2 son idees de futur si funciona la primera versió. Ai
 - [ ] **Qualitat codi**
   - [ ] ESLint configuration
   - [ ] Prettier setup
-  - [ ] Unit tests (Jest)
-  - [ ] E2E tests (Playwright)
+  - [ ] Unit tests (Jest) (v2)
+  - [ ] E2E tests (Playwright) (v2)
 
 ### 📖 Documentació Final
 
