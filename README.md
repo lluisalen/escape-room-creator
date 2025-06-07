@@ -120,15 +120,38 @@ Visita http://localhost:3000 per veure l'aplicació.
 - Tests automatitzats amb Lighthouse
 - Suport per a tecnologies assistives
 
-## 👥 Transferibilitat i Contribució
+## 📄 Llicència i Drets d'Autor
 
-Aquest projecte està dissenyat per ser **transferible** a:
-- Altres centres educatius de FP
-- Diferents especialitats de desenvolupament web
-- Contextos d'educació no formal
+### 📋 **Llicència Única per a Tot el Projecte**
 
-## 📄 Llicències i Drets d'Autor
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-- **Codi**: MIT License - Ús lliure amb atribució
-- **Contingut educatiu**: Creative Commons BY-SA 4.0
-- **Assets 3D**: Respectar llicències individuals (CC0, CC BY, etc.)
+**Tot aquest projecte** (codi, documentació, materials educatius, guies, tutorials, exemples...) està llicenciat sota:
+
+**[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE)**
+
+### ✅ **Què pots fer:**
+- 📤 **Compartir**: Copiar i redistribuir el material en qualsevol format
+- 🔄 **Adaptar**: Modificar, remesclar i crear a partir del material
+- 🎓 **Ús educatiu**: Utilitzar-lo en centres educatius i formació
+- 👥 **Ús personal**: Projectes personals i d'aprenentatge
+
+### ⚠️ **Condicions:**
+- 🏷️ **Atribució**: Has de citar l'autor original (Lluís Alemany)
+- 🚫 **No comercial**: No pots utilitzar-lo per obtenir beneficis econòmics
+- 🔄 **Compartir igual**: Les teves adaptacions han de tenir la mateixa llicència
+
+### 🎨 **Assets de Tercers**
+Si afegeixes recursos externs (models 3D, imatges, sons), assegura't que siguin compatibles:
+- ✅ **Recomanat**: CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA
+- ❌ **No compatible**: Materials amb copyright o llicències comercials restrictives
+
+---
+
+## 🧩 Com ens hem repartit el treball?
+
+**De forma conjunta:** Estructura del projecte, planificació dels sprints, material didàctics i guies per l'alumnat.
+
+**Joanma i Lluís:** Creació de l'aplicació web, components A-Frame, desenvolupament tècnic, definició dels sprints i criteris d'avaluació.
+
+---
