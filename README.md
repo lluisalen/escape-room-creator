@@ -4,6 +4,8 @@
 
 **Escape Room Creator** és una plataforma educativa innovadora per al mòdul de **Disseny d'Interfícies Web (DIW)** del cicle formatiu de grau superior **Desenvolupament d'Aplicacions Web**. Aquest projecte permet als estudiants crear experiències immersives d'escape rooms virtuals mentre desenvolupen competències en disseny web, interfícies 3D i accessibilitat.
 
+### 🧑‍🏫 [Presentació](https://prezi.com/view/gayXCSgMu3K8L3sZEIW5/)
+
 ### 🎯 Objectius i Resultats d'Aprenentatge
 
 El projecte cobrix els **6 Resultats d'Aprenentatge (RA)** específics del currículum oficial:
