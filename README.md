@@ -4,22 +4,26 @@
 
 ## 📋 Descripció del Projecte
 
-**Escape Room Creator** és una plataforma educativa innovadora per al mòdul de **Disseny d'Interfícies Web (DIW)** del cicle formatiu de grau superior **Desenvolupament d'Aplicacions Web**. Aquest projecte permet als estudiants crear experiències immersives d'escape rooms virtuals mentre desenvolupen competències en disseny web, interfícies 3D i accessibilitat.
+**Escape Room Creator** és una plataforma educativa innovadora per al mòdul de **Disseny d'Interfícies Web (DIW)** del cicle formatiu de grau superior **Desenvolupament d'Aplicacions Web**. Aquest projecte permet als estudiants crear, editar i visualitzar experiències immersives d'escape rooms virtuals utilitzant tecnologies web modernes com Next.js, React, TypeScript i A-Frame, mentre desenvolupen competències en disseny web, interfícies 3D i accessibilitat.
 
-### 🧑‍🏫 [Presentació](https://prezi.com/view/gayXCSgMu3K8L3sZEIW5/)
+## 🧑‍🏫 [Presentació](https://prezi.com/view/gayXCSgMu3K8L3sZEIW5/)
 
-### 🎯 Objectius i Resultats d'Aprenentatge
+## 🎯 Objectius i Resultats d'Aprenentatge
 
 El projecte cobrix els **6 Resultats d'Aprenentatge (RA)** específics del currículum oficial:
 
-- **RA1 (15%)**: Planifica la creació d'interfícies web valorant i aplicant especificacions de disseny
-- **RA2 (35%)**: Crea interfícies web homogenis definint i aplicant estils
-- **RA3 (20%)**: Prepara arxius multimèdia per a la web analitzant-ne les característiques
-- **RA4 (10%)**: Integra contingut multimèdia en documents web valorant-ne l'aportació
-- **RA5 (10%)**: Desenvolupa interfícies web accessibles aplicant tècniques de verificació
-- **RA6 (10%)**: Desenvolupa interfícies web amigables analitzant pautes d'usabilitat
+- **RA1**: Planifica la creació d'interfícies web valorant i aplicant especificacions de disseny
+- **RA2**: Crea interfícies web homogenis definint i aplicant estils
+- **RA3**: Prepara arxius multimèdia per a la Web, analitzant-ne les característiques i manejant eines específiques
+- **RA4**: Integra contingut multimèdia en documents web valorant-ne l'aportació i seleccionant adequadament els elements interactius
+- **RA5**: Desenvolupa interfícies web accessibles, analitzant les pautes establertes i aplicant tècniques de verificació													
+- **RA6**: Desenvolupa interfícies web amigables analitzant i aplicant les pautes d'usabilitat establertes													
 
-### 📅 [Planificació Temporal](./professorat/planificació_temporal.md)
+## 🌐 Aplicació Web
+
+L'aplicació web amb la que començaran a treballar els alumnes es troba en un **repositori independent**:
+
+**🔗 [Escape Room Creator App](https://github.com/joanmagf/escape-room-creator-app)**
 
 ## 📁 Estructura del Projecte
 
@@ -41,12 +45,6 @@ escape-room-creator/
 ├── TODO.md                            # Llista de tasques pendents
 └── LICENSE                            # Llicència del projecte
 ```
-
-### 🌐 Aplicació Web (Repositori Separat)
-
-L'aplicació web es troba en un **repositori independent**:
-
-**🔗 [Escape Room Creator App](https://github.com/joanmagf/escape-room-creator-app)**
 
 ---
 
