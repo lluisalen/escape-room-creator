@@ -5,71 +5,77 @@
 | Sprint | Setm. | RA implicats |
 |--------|-------|--------------|
 | 1 | 1-3 | **RA1** |
-| 2 | 4-6 | **RA1 · RA2** |
-| 3 | 7-11 | **RA2** |
-| 4 | 12-16 | **RA3 · RA4** |
-| 5 | 17-18 | **RA5 · RA6** |
-| 6 | 19-21 | **RA2-RA6** |
+| 2 | 4-10 | **RA2** |
+| 3 | 11-16 | **RA3 · RA4** |
+| 4 | 17-18 | **RA5 · RA6** |
+| 5 | 19-21 | **RA2-RA6** |
 
 ---
 
 ## Sprint 1 · RA1 (Setmanes 1-3)
 
+**Evidència única**: Proposta de disseny web completa
+
 | Criteri | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
 |-----------|---|----------------|--------|----------|------------|
-| **Guia d'estils** | 35 | Paleta i tipografia completes, regles UI clares, aplicades a totes les vistes | Completa i aplicada a ≥90 % vistes | Esborrany bàsic, aplicació parcial | Inconsistent o incompleta |
-| **Mock-up Figma** | 30 | Prototip d'alta fidelitat amb flux, animacions i anotes d'accessibilitat | Totes vistes linkades amb flux coherent | ≥60 % vistes, flux parcial | <60 % vistes o flux incoherent |
-| **Mapa de navegació** | 10 | Mapa complet amb jerarquia clara, breadcrumbs i flux d'usuari detallat | Mapa estructurat amb connexions lògiques | Estructura bàsica amb algunes connexions | Incomplet o confús |
-| **Presentació proposta** | 25 | Storytelling fluït, temps respectat, Q&A resolt, visuals cuidats | Narrativa clara, temps adequat | Estructura bàsica amb mancances | Desorganitzada o incompleta |
+| **Principis de disseny i percepció visual** (RA1.a) | 20 | Aplica principis complets de percepció visual amb justificació tècnica i solucions innovadores | Aplica la majoria de principis amb bona justificació | Principis bàsics aplicats amb explicació simple | Pocs principis o explicació inadequada |
+| **Paleta de colors i tipografia** (RA1.b) | 25 | Paleta accessible amb proves de contrast i tipografia optimitzada per pantalla | Colors coherents i tipografia adequada per web | Selecció bàsica de colors i fonts estàndard | Colors inadequats o tipografia poc legible |
+| **Estructuració i alternatives** (RA1.c + RA1.f) | 20 | Proposa múltiples alternatives amb maquetació perfectament organitzada | Presenta 2-3 alternatives amb bona estructura | Una alternativa clara amb organització acceptable | Sense alternatives o maquetació confusa |
+| **Guia d'estil i aplicació** (RA1.d) | 25 | Guia completa aplicada consistentment a tots els mockups | Guia detallada aplicada al 90% dels elements | Guia bàsica amb aplicació parcial | Guia incompleta o aplicació inconsistent |
+| **Eines i plantilles** (RA1.e + RA1.g) | 10 | Domina múltiples eines amb plantilles modulars reutilitzables | Bon ús d'eines amb plantilles ben definides | Ús bàsic d'eines amb plantilla simple | Eines limitades sense plantilles adequades |
 
 ---
 
-## Sprint 2 · RA1 + RA2 (Setmanes 4-6)
+## Sprint 2 · RA2 (Setmanes 4-10)
 
-| Criteri | % | 4 | 3 | 2 | 1 |
+**Evidència única**: Interfície web implementada amb estils
+
+| Criteri | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
 |-----------|---|---|---|---|---|
-| **Maqueta HTML** | 40 | HTML semàntic + ARIA sense errors | HTML semàntic 0 errors | HTML bàsic amb errors menors | Etiquetat incorrecte |
-| **Guia d'estils aplicada** | 30 | 100 % estils coherents | ≥90 % | 70-89 % | <70 % o incoherències greus |
-| **Validació semàntica** | 30 | 0 errors/0 warnings | 0 errors, ≤3 warnings | ≤10 errors | >10 errors |
+| **HTML semàntic i personalització** (RA2.a + RA2.b) | 20 | HTML semàntic amb microdata i estils directes justificats | HTML semàntic correcte amb alguns estils directes apropiats | HTML bàsic amb etiquetes estàndard | HTML incorrecte o abús d'estils en línia |
+| **Arquitectura CSS i fulls externs** (RA2.c + RA2.e) | 30 | CSS organitzat en múltiples fulls amb redefinició dinàmica | Full d'estil ben estructurat amb adaptacions | Full d'estil bàsic però funcional | CSS desorganitzat o estàtic |
+| **Estils alternatius i propietats** (RA2.d + RA2.f) | 25 | Temes múltiples amb propietats CSS avançades (Grid, Flexbox, animations) | Mode fosc/clar amb bon ús de propietats modernes | Estil alternatiu bàsic amb propietats CSS estàndard | Sense alternatives o propietats limitades |
+| **Classes i reutilització** (RA2.g) | 15 | Sistema de classes consistent amb metodologia BEM/OOCSS | Classes ben organitzades i reutilitzables | Classes bàsiques amb certa reutilització | Classes desordenades o repetitives |
+| **Validació i manteniment** (RA2.h + RA2.i) | 10 | CSS validat sense errors i guia d'estil actualitzada | Validació correcta amb guia mantinguda | Validació bàsica amb guia actualitzada | Errors de validació o guia obsoleta |
 
 ---
 
-## Sprint 3 · RA2 (Setmanes 7-11)
+## Sprint 3 · RA3 + RA4 (Setmanes 11-16)
 
-| Criteri | % | 4 | 3 | 2 | 1 |
+**Evidència única**: Contingut multimèdia 3D integrat i interactiu
+
+| Criteri | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
 |-----------|---|---|---|---|---|
-| **Config Tailwind** | 30 | Theme propi + dark mode + variants | Theme propi complet | Colors/fonts bàsics | Config per defecte |
-| **Estils a vistes** | 40 | 100 % coherència, responsive impecable | ≥90 % i responsive bo | 70-89 % | <70 % o errors greus |
-| **Components Shadcn** | 30 | >6 components nets reutilitzables | 4-6 components | 2-3 components simples | ≤1 component/dúplicats |
+| **Gestió multimèdia i drets** (RA3.a + RA3.b) | 15 | Tots els formats optimitzats amb llicències documentades i fonts citades | Formats adequats amb llicències respectades | Formats estàndard amb coneixement bàsic de llicències | Formats inadequats o descuido en drets d'autor |
+| **Tractament i edició de contingut** (RA3.c + RA3.d + RA3.e) | 20 | Workflow complet amb múltiples eines per imatges, àudio i vídeo | Bon tractament de diferents formats multimèdia | Edició bàsica però efectiva | Tractament inadequat o eines limitades |
+| **Animacions i exportació** (RA3.f + RA3.g + RA3.h) | 15 | Animacions fluides amb conversions optimitzades seguint la guia d'estil | Animacions efectives amb gestió correcta de formats | Animacions simples amb conversions bàsiques | Animacions pobres o problemes en formats |
+| **Tecnologies 3D i compatibilitat** (RA4.a + RA4.b) | 20 | A-Frame expertament integrat amb compatibilitat total i fallbacks | A-Frame funcional compatible amb navegadors principals | A-Frame bàsic funcional en navegadors estàndard | Integració deficient o problemes de compatibilitat |
+| **Desenvolupament i optimització 3D** (RA4.c + RA4.d) | 15 | Eines 3D professionals amb codi optimitzat i documentat | Eines 3D adequades amb codi revisat | Creació 3D simple amb codi funcional | Eines inadequades o codi sense revisar |
+| **Integració i interactivitat** (RA4.e + RA4.f + RA4.g) | 15 | Elements multimèdia integrats amb múltiples interaccions testades en 5+ navegadors | Bona integració amb interaccions variades en 3-4 navegadors | Integració bàsica amb interacció simple en navegadors principals | Problemes d'integració o interactivitat limitada |
 
 ---
 
-## Sprint 4 · RA3 + RA4 (Setmanes 12-16)
+## Sprint 4 · RA5 + RA6 (Setmanes 17-18)
 
-| Criteri | % | 4 | 3 | 2 | 1 |
+**Evidència única**: Web accessible i usable
+
+| Criteri | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
 |-----------|---|---|---|---|---|
-| **Catàleg 3D + logo** | 30 | >10 ítems optimitzats + metadades | >10 ítems optimitzats | 5-10 ítems parcial | <5 ítems/no optimitzats |
-| **Elements interactius** | 20 | Àudio, vídeo i animacions integrats fluidament | ≥2 elements interactius funcionals | 1 element interactiu bàsic | Sense elements interactius |
-| **Integració A-Frame** | 30 | Objectes, logo i fons integrats; FPS estable | Integra amb controls bàsics | Integració parcial/errors | No integrat |
-| **Prototip sala 3D** | 20 | Guardat amb versions + controls complets | Guardat estable i controls | Guardat amb errors | No persistix |
+| **Fonaments d'accessibilitat** (RA5.a + RA5.b) | 20 | Argumenta la importància amb auditoria completa d'accessibilitat | Comprèn la necessitat amb anàlisi detallada de barreres | Coneixement bàsic amb revisió d'accessibilitat | Poca consciència o anàlisi superficial |
+| **Implementació WCAG** (RA5.c + RA5.d + RA5.e) | 30 | WCAG 2.1 AA complet amb errors crítics resolts i sistema de priorització | Compleix la majoria de WCAG AA amb errors importants resolts | Criteris WCAG A amb alguns errors corregits | Pocs criteris WCAG o errors crítics sense resoldre |
+| **Verificació d'accessibilitat** (RA5.f + RA5.g) | 15 | Múltiples eines de test i compatible amb tecnologies assistives | Eines automatitzades amb compatibilitat en navegadors principals | Tests bàsics funcionals en navegadors estàndard | Sense validació externa o problemes de compatibilitat |
+| **Anàlisi d'usabilitat i adequació** (RA6.a + RA6.c) | 20 | Tests d'usuari reals amb interfície perfectament alineada als objectius | Anàlisi heurística amb bona adequació a objectius principals | Revisió bàsica amb adequació acceptable | Anàlisi superficial o desalineament amb objectius |
+| **Estàndards i navegació** (RA6.b + RA6.d + RA6.e) | 15 | Estàndards de la indústria amb navegació intuïtiva i múltiples mètodes de verificació | Estàndards reconeguts amb navegació clara | Estàndards bàsics amb navegació funcional | Ignora estàndards o navegació confusa |
 
 ---
 
-## Sprint 5 · RA5 + RA6 (Setmanes 17-18)
+## Sprint 5 · RA2-RA6 (Setmanes 19-21)
 
-| Criteri | % | 4 | 3 | 2 | 1 |
+**Evidència única**: Projecte final integrat i documentat
+
+| Criteri | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
 |-----------|---|---|---|---|---|
-| **Informe Lighthouse** | 30 | ≥95 a tots els apartats | 90-94 | 70-89 | <70 |
-| **Accessibilitat** | 30 | 100 % WCAG AA complert | 75-99 % | 50-74 % | <50 % |
-| **Verificació navegadors** | 40 | Funcional en ≥5 navegadors/dispositius diferents | 3-4 navegadors | 2 navegadors | Només 1 navegador |
-
----
-
-## Sprint 6 · RA2-RA6 (Setmanes 19-21)
-
-| Criteri | % | 4 | 3 | 2 | 1 |
-|-----------|---|---|---|---|---|
-| **README + docu** | 25 | Completa, diagrames, llicències verificades | Completa amb exemples | Estructura bàsica | Incompleta/confusa |
-| **Demo funcional** | 25 | Escape room complet, sense errors | Flux complet errors menors | Flux parcial | No funcional |
-| **Presentació final** | 25 | Demo en viu fluïda, Q&A solventat | Història clara i demo | Guió bàsic | Desorganitzada |
-| **Autoavaluació** | 25 | Reflexió crítica i millores | Evidències i anàlisi | Sense proves clares | No lliurada |
+| **Integració tècnica** | 30 | Tots els RA integrats harmònicament sense contradiccions | Bona integració amb xicotetes incoherències | Integració acceptable amb alguns problemes | Integració deficient entre components |
+| **Documentació completa** | 25 | README exemplar, codi comentat, diagrames tècnics, llicències | Documentació completa i clara | Documentació bàsica suficient | Documentació inadequada o confusa |
+| **Funcionament global** | 25 | Escape room complet, robust i sense errors | Funcionalitat completa amb errors menors | Funcionalitat principal operativa | Funcionalitat limitada o inestable |
+| **Presentació i defensa** | 20 | Presentació professional amb demo en viu impecable | Presentació clara amb demo funcional | Presentació adequada amb demo bàsica | Presentació desorganitzada o demo fallida |
