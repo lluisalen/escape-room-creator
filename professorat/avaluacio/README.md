@@ -1,15 +1,16 @@
 # 📊 Com funciona l'avaluació?
 
-Benvingut/da! Aquesta guia explica **pas a pas** com utilitzar la plantilla d'avaluació dels sprints que et pots descarregar i com es converteixen les notes (1-4) en la qualificació final. 🧩
+Benvingut/da! Aquesta guia explica **pas a pas** com utilitzar la plantilla d'avaluació dels sprints que et pots descarregar i com es converteixen les notes (1-4) en la qualificació final. Al tractar-se d'un projecte on es treballen tots els resultats d'aprenentatge i els criteris d'avaluació s'han creat rúbriques per a cada sprint per poder avaluar el que entreguen els alumnes.  🧩
 
 ---
 
 ## 🗂 Contingut del fitxer
 
-| Pestanya | Què hi trobaràs? |
+| Pestanya | Què trobaràs? |
 |----------|------------------|
-| **Sprints** | Llista d'evidències de cada sprint |
-| **RA1…RA6** | Fulls automàtics que converteixen notes d'evidències en nota de Resultat d'Aprenentatge. |
+| **Mòdul** | La nota del mòdul final tinguent en compte el % de cada RA |
+| **Sprints** | Llistat de rúbriques per a cada sprint |
+| **RA1…RA6** | Fulls automàtics que converteixen les notes de les evidències en la nota de cada Resultat d'Aprenentatge. |
 
 ---
 
@@ -25,13 +26,12 @@ Benvingut/da! Aquesta guia explica **pas a pas** com utilitzar la plantilla d'av
 ## 📑 Rúbriques per sprint
 
 En la pestanya SPRINTS del excel estan totes les rúbriques.
-> Format: **Evidència · % · Descripció · Excel·lent (4) · Bé (3) · Suficient (2) · Insuficient (1) · Nota**
 
-També podeu visualitzar les rúbriques en [rúbriques_sprints.md](./rúbriques_sprints.md)
+També podeu visualitzar-les en [rúbriques_sprints.md](./rúbriques_sprints.md)
 
 ## 📑 Rúbrica per a la co-avaluació
 
-Els alumnes una vegada presentat el projecte hauran de completar la co-avaluació seguint la [rúbrica_co-avaluació.md](./rúbrica_co-avaluació.md)
+Els alumnes una vegada presentat el seu projecte hauran de completar la co-avaluació seguint la [rúbrica_co-avaluació.md](./rúbrica_co-avaluació.md)
 
 ---
 
