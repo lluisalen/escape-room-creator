@@ -1,5 +1,7 @@
 # 🎮 Escape Room Creator - Projecte Educatiu
 
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
+
 ## 📋 Descripció del Projecte
 
 **Escape Room Creator** és una plataforma educativa innovadora per al mòdul de **Disseny d'Interfícies Web (DIW)** del cicle formatiu de grau superior **Desenvolupament d'Aplicacions Web**. Aquest projecte permet als estudiants crear experiències immersives d'escape rooms virtuals mentre desenvolupen competències en disseny web, interfícies 3D i accessibilitat.
@@ -23,19 +25,21 @@ El projecte cobrix els **6 Resultats d'Aprenentatge (RA)** específics del curr�
 
 ```
 escape-room-creator/
-├── 📚 professorat/                    # Documentació per al professorat
-│   ├── guia_didàctica.md            # Guia didàctica completa
-│   ├── planificació_temporal.md     # Planificació temporal
-│   ├── DIW_Taula_RA_CA_Continguts.md # Taula de Resultats d'Aprenentatge
-│   ├── materials_recursos/           # Materials i recursos
-│   └── avaluacio/                    # Avaluació
-│       ├── rúbriques_sprints.md     # Rúbriques per sprints
-│       └── rúbrica_co-avaluació.md  # Rúbrica de co-avaluació
-└── 👨‍🎓 alumnnat/                      # Recursos per a l'alumnat
-    ├── dossier_projecte.md        # Dossier del projecte
-    ├── tutorials/                   # Tutorials
-    ├── exemples/                    # Exemples
-    └── eines_treball/               # Eines de treball
+├── 📚 professorat/                   # Documentació per al professorat
+│   ├── guia_didàctica.md              # Guia didàctica completa
+│   ├── planificació_temporal.md       # Planificació temporal
+│   ├── estratègies_metodològiques.md  # Estratègies metodològiques
+│   ├── DIW_Taula_RA_CA_Continguts.md  # Taula de Resultats d'Aprenentatge
+│   ├── unitats/                       # Unitats didàctiques
+│   └── avaluacio/                     # Avaluació
+│       ├── rúbriques_sprints.md       # Rúbriques per sprints
+│       ├── rúbrica_co-avaluació.md    # Rúbrica de co-avaluació
+│       └── Plantilla-Avaluar-Grup-Scape-Room-Creator.xlsx
+├── 👨‍🎓 alumnnat/                      # Recursos per a l'alumnat
+│   ├── dossier_projecte.md            # Dossier del projecte
+│   └── recursos.md                    # Recursos, tutorials i exemples pas a pas per a cada sprint
+├── TODO.md                            # Llista de tasques pendents
+└── LICENSE                            # Llicència del projecte
 ```
 
 ### 🌐 Aplicació Web (Repositori Separat)
@@ -43,32 +47,6 @@ escape-room-creator/
 L'aplicació web es troba en un **repositori independent**:
 
 **🔗 [Escape Room Creator App](https://github.com/joanmagf/escape-room-creator-app)**
-
-## 📄 Llicència i Drets d'Autor
-
-### 📋 **Llicència Única per a Tot el Projecte**
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-**Tot aquest projecte** (codi, documentació, materials educatius, guies, tutorials, exemples...) està llicenciat sota:
-
-**[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE)**
-
-### ✅ **Què pots fer:**
-- 📤 **Compartir**: Copiar i redistribuir el material en qualsevol format
-- 🔄 **Adaptar**: Modificar, remesclar i crear a partir del material
-- 🎓 **Ús educatiu**: Utilitzar-lo en centres educatius i formació
-- 👥 **Ús personal**: Projectes personals i d'aprenentatge
-
-### ⚠️ **Condicions:**
-- 🏷️ **Atribució**: Has de citar l'autor original (Lluís Alemany)
-- 🚫 **No comercial**: No pots utilitzar-lo per obtenir beneficis econòmics
-- 🔄 **Compartir igual**: Les teves adaptacions han de tenir la mateixa llicència
-
-### 🎨 **Assets de Tercers**
-Si afegeixes recursos externs (models 3D, imatges, sons), assegura't que siguin compatibles:
-- ✅ **Recomanat**: CC0, CC BY, CC BY-SA, CC BY-NC, CC BY-NC-SA
-- ❌ **No compatible**: Materials amb copyright o llicències comercials restrictives
 
 ---
 
