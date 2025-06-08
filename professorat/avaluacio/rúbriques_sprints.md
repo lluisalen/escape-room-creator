@@ -15,7 +15,7 @@
 
 ## Sprint 1 · RA1 (Setmanes 1-3)
 
-| Evidència | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
+| Criteri | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
 |-----------|---|----------------|--------|----------|------------|
 | **Guia d'estils** | 35 | Paleta i tipografia completes, regles UI clares, aplicades a totes les vistes | Completa i aplicada a ≥90 % vistes | Esborrany bàsic, aplicació parcial | Inconsistent o incompleta |
 | **Mock-up Figma** | 30 | Prototip d'alta fidelitat amb flux, animacions i anotes d'accessibilitat | Totes vistes linkades amb flux coherent | ≥60 % vistes, flux parcial | <60 % vistes o flux incoherent |
@@ -26,7 +26,7 @@
 
 ## Sprint 2 · RA1 + RA2 (Setmanes 4-6)
 
-| Evidència | % | 4 | 3 | 2 | 1 |
+| Criteri | % | 4 | 3 | 2 | 1 |
 |-----------|---|---|---|---|---|
 | **Maqueta HTML** | 40 | HTML semàntic + ARIA sense errors | HTML semàntic 0 errors | HTML bàsic amb errors menors | Etiquetat incorrecte |
 | **Guia d'estils aplicada** | 30 | 100 % estils coherents | ≥90 % | 70-89 % | <70 % o incoherències greus |
@@ -36,7 +36,7 @@
 
 ## Sprint 3 · RA2 (Setmanes 7-11)
 
-| Evidència | % | 4 | 3 | 2 | 1 |
+| Criteri | % | 4 | 3 | 2 | 1 |
 |-----------|---|---|---|---|---|
 | **Config Tailwind** | 30 | Theme propi + dark mode + variants | Theme propi complet | Colors/fonts bàsics | Config per defecte |
 | **Estils a vistes** | 40 | 100 % coherència, responsive impecable | ≥90 % i responsive bo | 70-89 % | <70 % o errors greus |
@@ -46,7 +46,7 @@
 
 ## Sprint 4 · RA3 + RA4 (Setmanes 12-16)
 
-| Evidència | % | 4 | 3 | 2 | 1 |
+| Criteri | % | 4 | 3 | 2 | 1 |
 |-----------|---|---|---|---|---|
 | **Catàleg 3D + logo** | 30 | >10 ítems optimitzats + metadades | >10 ítems optimitzats | 5-10 ítems parcial | <5 ítems/no optimitzats |
 | **Elements interactius** | 20 | Àudio, vídeo i animacions integrats fluidament | ≥2 elements interactius funcionals | 1 element interactiu bàsic | Sense elements interactius |
@@ -57,7 +57,7 @@
 
 ## Sprint 5 · RA5 + RA6 (Setmanes 17-18)
 
-| Evidència | % | 4 | 3 | 2 | 1 |
+| Criteri | % | 4 | 3 | 2 | 1 |
 |-----------|---|---|---|---|---|
 | **Informe Lighthouse** | 30 | ≥95 a tots els apartats | 90-94 | 70-89 | <70 |
 | **Accessibilitat** | 30 | 100 % WCAG AA complert | 75-99 % | 50-74 % | <50 % |
@@ -67,7 +67,7 @@
 
 ## Sprint 6 · RA2-RA6 (Setmanes 19-21)
 
-| Evidència | % | 4 | 3 | 2 | 1 |
+| Criteri | % | 4 | 3 | 2 | 1 |
 |-----------|---|---|---|---|---|
 | **README + docu** | 25 | Completa, diagrames, llicències verificades | Completa amb exemples | Estructura bàsica | Incompleta/confusa |
 | **Demo funcional** | 25 | Escape room complet, sense errors | Flux complet errors menors | Flux parcial | No funcional |
