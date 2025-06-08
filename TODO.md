@@ -60,23 +60,23 @@ Les tasques marcades en v2 son idees de futur si funciona la primera versió. Ai
   - [ ] Objectius d'aprenentatge clars
   - [ ] Cronograma visual
   - [ ] Criteris d'avaluació adaptats
-  - [ ] Recursos i enllaços útils
+  - [x] Recursos i enllaços útils
 
-- [ ] **Tutorials/**
-  - [ ] Tutorial Figma per a guies d'estils
-  - [ ] Tutorial HTML semàntic i accessibilitat
-  - [ ] Tutorial Tailwind CSS configuració
-  - [ ] Tutorial A-Frame bàsic
-  - [ ] Tutorial Lighthouse i WCAG
-  - [ ] Tutorial Git i GitHub
+- [x] **Tutorials/**
+  - [x] Tutorial Figma per a guies d'estils
+  - [x] Tutorial HTML semàntic i accessibilitat
+  - [x] Tutorial Tailwind CSS configuració
+  - [x] Tutorial A-Frame bàsic
+  - [x] Tutorial Lighthouse i WCAG
+  - [x] Tutorial Git i GitHub
 
 - [ ] **Exemples/**
-  - [ ] Guia d'estils de referència
-  - [ ] Mockups Figma exemplars
-  - [ ] Codi HTML semàntic
-  - [ ] Configuració Tailwind
-  - [ ] Escena A-Frame bàsica
-  - [ ] Informe d'accessibilitat
+  - [x] Guia d'estils de referència
+  - [x] Mockups Figma exemplars
+  - [x] Codi HTML semàntic
+  - [x] Configuració Tailwind
+  - [x] Escena A-Frame bàsica
+  - [x] Informe d'accessibilitat
 
 - [ ] **Eines de treball/**
   - [ ] Plantilles Figma
@@ -160,16 +160,16 @@ Les tasques marcades en v2 son idees de futur si funciona la primera versió. Ai
 
 ### 📖 Documentació Final
 
-- [ ] **README complet**
-  - [ ] Instruccions d'instal·lació
-  - [ ] Guia d'ús
-  - [ ] Arquitectura del projecte
-  - [ ] Contribució
+- [x] **README complet**
+  - [x] Instruccions d'instal·lació
+  - [x] Guia d'ús
+  - [x] Arquitectura del projecte
+  - [x] Contribució
 
-- [ ] **Documentació tècnica**
-  - [ ] API documentation
-  - [ ] Components documentation
-  - [ ] Deployment guide
+- [x] **Documentació tècnica**
+  - [x] API documentation
+  - [x] Components documentation
+  - [x] Deployment guide
 
 ### 🚀 Desplegament (v2)
 
