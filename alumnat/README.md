@@ -7,9 +7,7 @@ Aquesta secció conté tots els recursos que necessiteu per a participar en el p
 ### 📚 Documents Inclosos
 
 1. **[dossier_projecte.pdf](./dossier_projecte.pdf)** - Dossier complet del projecte
-2. **[tutorials/](./tutorials/)** - Tutorials pas a pas
-3. **[exemples/](./exemples/)** - Exemples d'escape rooms
-4. **[eines_treball/](./eines_treball/)** - Eines i recursos de treball
+2. **[recursos.md](./tutorials/)** - Recursos, Tutorials i Exemples pas a pas per a cada sprint
 
 ### 🎯 Què Aprendreu
 
