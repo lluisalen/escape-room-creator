@@ -14,7 +14,7 @@
 
 ## Sprint 1 · RA1 (Setmanes 1-3)
 
-**Evidència única**: Proposta de disseny web completa
+**Evidència**: Proposta de disseny web completa
 
 | Criteri | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
 |-----------|---|----------------|--------|----------|------------|
@@ -28,7 +28,7 @@
 
 ## Sprint 2 · RA2 (Setmanes 4-10)
 
-**Evidència única**: Interfície web implementada amb estils
+**Evidència**: Interfície web implementada amb estils
 
 | Criteri | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
 |-----------|---|---|---|---|---|
@@ -42,7 +42,7 @@
 
 ## Sprint 3 · RA3 + RA4 (Setmanes 11-16)
 
-**Evidència única**: Contingut multimèdia 3D integrat i interactiu
+**Evidència**: Contingut multimèdia 3D integrat i interactiu
 
 | Criteri | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
 |-----------|---|---|---|---|---|
@@ -57,7 +57,7 @@
 
 ## Sprint 4 · RA5 + RA6 (Setmanes 17-18)
 
-**Evidència única**: Web accessible i usable
+**Evidència**: Web accessible i usable
 
 | Criteri | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
 |-----------|---|---|---|---|---|
@@ -71,7 +71,7 @@
 
 ## Sprint 5 · RA2-RA6 (Setmanes 19-21)
 
-**Evidència única**: Projecte final integrat i documentat
+**Evidència**: Projecte final integrat i documentat
 
 | Criteri | % | 4 (Excel·lent) | 3 (Bé) | 2 (Suf.) | 1 (Insuf.) |
 |-----------|---|---|---|---|---|
