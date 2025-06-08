@@ -46,12 +46,8 @@ escape-room-creator/
 └── LICENSE                            # Llicència del projecte
 ```
 
----
-
 ## 🧩 Com ens hem repartit el treball?
 
 **De forma conjunta:** Estructura del projecte, planificació dels sprints, material didàctics i guies per l'alumnat.
 
 **Joanma i Lluís:** Creació de l'aplicació web, components A-Frame, desenvolupament tècnic, definició dels sprints i criteris d'avaluació.
-
----
