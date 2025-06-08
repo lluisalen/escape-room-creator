@@ -94,7 +94,7 @@ està en la secció de Sessions per Sprint.
 - Setmana 16 (Sessions 31 i 32): Creació del escape room.
 ---
 
-### Sprint 5 (Setmanes 17-18)
+### Sprint 4 (Setmanes 17-18)
 **Objectius:** 
 - Unitat 4: Disseny de webs accessibles.
 - Unitat 5: Implementació de la usabilitat en la web. Disseny amigable.
@@ -105,7 +105,7 @@ està en la secció de Sessions per Sprint.
 
 ---
 
-### Sprint 6 (Setmanes 19-21)
+### Sprint 5 (Setmanes 19-21)
 **Objectius:**  
 - Unitat 6: Documentació completa. Markdown. (README, llicències, etc).
 - Millores en la navegació.
