@@ -29,32 +29,21 @@ Aquest document recull materials, tutorials, eines i referències útils per a c
 
 ---
 
-## 🧱 Sprint 2: Maquetació HTML (Setmanes 4-6)
+## 🧱 Sprint 2: Maquetació HTML i Disseny CSS (Setmanes 4-10)
 
 ### Objectius
 - Escollir i dissenyar una vista
 - Maquetar amb HTML estàndard
+- Integrar Tailwind CSS
+- Components amb ShadCN
 
 ### Recursos
 
 - **HTML i bones pràctiques**
   - [Guia d'HTML](https://developer.mozilla.org/es/docs/Web/HTML)
   - [W3C HTML Validator](https://www.w3schools.com/html/)
-- **Maquetació**
   - [Guia: Crear un header](https://flowbite.com/blocks/marketing/header/)
   - [Guia: Crear un footer](https://flowbite.com/docs/components/footer/)
-
-
----
-
-## 🎨 Sprint 3: Estils amb Tailwind i ShadCN (Setmanes 7-11)
-
-### Objectius
-- Integrar Tailwind CSS
-- Components amb ShadCN
-
-### Recursos
-
 - **TailwindCSS**
   - [TailwindCSS – Documentació oficial](https://tailwindcss.com/docs)
   - [Playground interactiu](https://play.tailwindcss.com/)
@@ -76,7 +65,7 @@ Aquest document recull materials, tutorials, eines i referències útils per a c
 
 ---
 
-## 🕶 Sprint 4: 3D i prototipat amb A-Frame (Setmanes 12-16)
+## 🕶 Sprint 3: 3D i prototipat amb A-Frame i imatges (Setmanes 11-16)
 
 ### Objectius
 - Introducció A-Frame
@@ -101,6 +90,9 @@ Aquest document recull materials, tutorials, eines i referències útils per a c
 - **Edició d'imatge**
   - [Inkscape](https://inkscape.app/es/)
   - [Tutorial Inkscape](https://www.youtube.com/watch?v=TKpchk09Rqg)
+  - [Gimp](https://www.gimp.org/)
+  - [Tutorial Inkscape](https://youtu.be/X61yReOfU0k?si=aSrPjFFEjFXYNf1J)
+  
   
   
 
