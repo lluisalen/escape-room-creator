@@ -22,6 +22,7 @@ Aquesta guia explica **pas a pas** com utilitzar la plantilla d'avaluació dels 
 2. **Ompli la pestanya de SPRINTS**  
    Completa les rúbriques de cada sprint puntuant cada un dels criteris i s'obtindrà un total que serà la puntuació de la evidència. Automàticament es posaran la nota final en cada criteri d'avaluació dins del RA vinculats al sprint. Per últimm s'actualitzarà la nota del mòdul amb el percentatge que te cada RA.
 
+**[Vídeo exemple com posar nota a cada sprint](https://youtu.be/jPhkk1yAWis)**
 
 ## 📑 Rúbriques per sprint
 
