@@ -11,13 +11,19 @@ Es pretén que l’alumnat desenvolupe una eina funcional per **crear escape roo
 El projecte combina diverses metodologies actives:
 
 - **Aprenentatge Basat en Projectes (ABP)**: Es desenvolupa un projecte real en grup.
-- **Agile/SCRUM**: Al estar dividit en sprints, tindre una entrega iterativa i una millora contínua de les funcionalitats podem incloure'l ací també.
+
 - **Design Thinking**: Té un enfocament centrat en l’usuari ja que és qui defineix, prototipa, testeja i construeix.
-- **Flipped Classroom**: Encara que els continguts també s'expliquen a l'aula, s'oferirà material a l'alumnat per a que puguen avançar més a casa.
+
 - **Aprenentatge Basat en Reptes**: El projecte és un repte que no té una única solució.
 - **Portfolio digital**: Es fa ús del repositori GitHub per documentar el procés complet.
 
 ---
+
+## Metodologies opcionals
+
+Altres metodologies que es podrien incloure o integrar en este projecte:
+- **Flipped Classroom**: Encara a l'aula s'expliquen hi ha temps per explicar la teoria i els continguts, es podria fer una metodologia on se li dona els recursos a l'alumnat (vídeos, apunts, repositoris, documentació...) per fer les classes totalment pràctiques i de resolució de dubtes.
+- **Agile/SCRUM**: Al estar dividit en sprints i per equips i al tindre una entrega iterativa i una millora contínua de les funcionalitats podem incloure alguna ferramenta com Trello per a que els equips es repartisquen la faena.
 
 ## Desenvolupament per sprints
 
@@ -27,7 +33,6 @@ El projecte combina diverses metodologies actives:
 - **Presentació del repte**: Es contextualitza el projecte com un repte real (ABP).
 - **Design Thinking – Fase d'ideació i prototipatge**: Es crea el mock-up i la guia d’estils amb Figma, centrant-se en l’usuari final.
 - **Treball cooperatiu**: Els equips prenen decisions conjuntes sobre el disseny.
-- **Classe invertida**: tutorials de Figma i exemples es treballen fora d’aula, i a classe es dissenya.
 
 ---
 
@@ -36,7 +41,7 @@ El projecte combina diverses metodologies actives:
 **Metodologia emprada**:
 - **Aprenentatge Basat en Projectes**: Es passa de la idea al codi, maquetant vistes reals.
 - **Resolució de problemes**: Es fomenta l’autonomia davant errors i validacions.
-- **Peer review**: revisió entre iguals del codi HTML i CSS i compliment de la guia d’estils.
+- **Peer review**: Revisió entre iguals del codi HTML i CSS i compliment de la guia d’estils.
 - **Aprenentatge tècnic guiat**: El docent actua com a facilitador, no com a instructor directe.
 - **Avaluació formativa contínua**: Seguiment de commits i feedback constant.
 ---
