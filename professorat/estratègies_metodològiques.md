@@ -41,7 +41,7 @@ El projecte combina diverses metodologies actives:
 - **Avaluació formativa contínua**: Seguiment de commits i feedback constant.
 ---
 
-## Sprint 4 – Sala 3D i objectes (Setmanes 12-16)
+## Sprint 3 – Sala 3D i objectes (Setmanes 12-16)
 
 **Metodologia emprada**:
 - **Design Thinking – Fase de prototipatge i testatge**: Es prova la interacció i estructura de la sala.
@@ -51,7 +51,7 @@ El projecte combina diverses metodologies actives:
 - **Peer testing**: Companys testegen la sala i donen feedback d’interacció.
 
 
-## Sprint 5 – Accessibilitat i usabilitat (Setmanes 17-18)
+## Sprint 4 – Accessibilitat i usabilitat (Setmanes 17-18)
 
 **Metodologia emprada**:
 - **Testing real**: Es fan proves amb eines com Lighthouse i checklist WCAG.
@@ -61,7 +61,7 @@ El projecte combina diverses metodologies actives:
 
 ---
 
-## Sprint 6 – Documentació i presentació (Setmanes 19-21)
+## Sprint 5 – Documentació i presentació (Setmanes 19-21)
 
 **Metodologia emprada**:
 - **Portfolio digital**: Es recopila tot el treball en el repositori de GitHub (README, llicències, crèdits).
