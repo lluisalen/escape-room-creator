@@ -78,6 +78,7 @@ Aquest document recull materials, tutorials, eines i referències útils per a c
 - **A-Frame**
   - [A-Frame Docs (VR Web)](https://aframe.io/docs/)
   - [Components – A-Frame](https://github.com/aframevr/aframe)
+  - [Guia bàsica per a crear un entorn immersiu en A-Frame](https://ciberimaginario.es/2023/02/17/guia-basica-para-crear-un-entorno-inmersivo-con-a-frame/)
 - **Components útils**
   - [aframe-extras (animacions, controls)](https://github.com/n5ro/aframe-extras)
   - [aframe-watcher (interacció + esdeveniments)](https://github.com/supermedium/aframe-watcher)
